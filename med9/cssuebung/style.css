@@ -1,0 +1,15 @@
+p{
+	background-color: red;
+	color: black;
+	font-size:25px
+}
+body{background-color:lightgreen}
+ol{background-color: pink;
+   font-size:25px;
+   border:2px solid black;
+   border-radius: 20px;
+}
+h1{background-color: blue;
+	color: white;
+   font-size: 50px}
+

@@ -1,0 +1,11 @@
+.right{
+	width: 300px; 
+	border:20px dotted red ;
+	float:right;
+}
+
+.left{width: 300px;
+ border:20px dotted blue;
+  float:left;
+}
+img{margin: 30px}
