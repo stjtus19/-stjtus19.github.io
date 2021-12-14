@@ -1,0 +1,50 @@
+img{
+	width: 300px;
+	height: 300px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.middle{
+	align-items: center;
+}
+.href1{
+	font-size: 20px;
+	text-align: left;
+}
+.href2{
+	font-size: 20px;
+	text-align: right;
+}
+.about{
+	font-size: 20px;
+}
+.body{
+	background-color: lightblue;
+}
+p{
+	color: white;
+}
+h2{
+	color: #C8A2C8;
+}
+.yugioh{
+	height: 250px;
+	width: 400px;
+	border: 20px double lightblue;
+}
+.double{
+	background-color: lightgreen;
+}
+.ul{
+	color: magenta;
+}
+.name{
+	color: lavender;
+}
+.school{
+	font-size: 20px;
+}
