@@ -1,0 +1,12 @@
+h1{
+	background: rgb(63,244,11);
+    background: linear-gradient(306deg, rgba(63,244,11,1) 0%, rgba(0,255,231,1) 100%);
+}
+h2{
+	background: rgb(244,183,11);
+    background: linear-gradient(180deg, rgba(244,183,11,1) 0%, rgba(245,45,35,1) 21%, rgba(44,246,142,1) 46%, rgba(50,247,59,1) 69%, rgba(76,0,255,1) 92%);
+}
+h3{
+	background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
