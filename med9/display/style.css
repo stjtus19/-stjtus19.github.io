@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+h1{
+	background-color: lightblue;
+	padding: 50px;
+	display: inline;
+}
+
+p{
+	margin: 100px;
+}
+.blue{
+	background-color: blue;
+ 
+}
+.green{
+	background-color: green;
+}
+.bold{
+	font-weight: bold;
+	font-size: 60px;
+	font-family: "Rubik Beastly"
+}
