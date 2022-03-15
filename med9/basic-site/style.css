@@ -1,0 +1,91 @@
+/*
+*  Title:  A website about a basic-website
+*  Author: Stjuert Tusha
+*  Date: 15.3.22
+*/
+
+/***********General Styles******************/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka:wght@300&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+body{
+	margin: 0;
+}
+
+/*Navigation */
+nav{
+	background-color: lightgrey;
+    display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: center;
+	padding: 30px;
+	font-family: Montserrat;
+}
+nav img{
+	height: 100px;
+	border-radius: 50%;
+	font-family: Montserrat;
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	font-family: Montserrat;
+}
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none; /*Removes the underliine decoration of a link */
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	font-family: Montserrat;
+}
+
+
+nav ul li a:hover {
+	/* Hover is used to make a nice effect if we put the mouse over the link */
+	background-color: grey;
+	color: black;
+	font-family: Montserrat;
+}
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* How to use a background image */
+	background-image: url("header-background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	padding: 20px;
+}
+/* Footer */
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+    background: rgb(92,80,80);
+background: linear-gradient(261deg, rgba(92,80,80,1) 0%, rgba(40,24,24,1) 69%);
+}
+footer p {
+	font-size: 30px;
+	color: white;
+}
+
+/* Section */
+section {
+	padding: 50px;
+}
