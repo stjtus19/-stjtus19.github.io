@@ -1,0 +1,83 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka:wght@300&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+:root {
+	scroll-behavior: smooth;
+}
+nav{
+background-color: lightblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+position: fixed;
+width: 100%;
+box-sizing: border-box;
+}
+
+
+
+nav img{
+height: 80px;
+border-radius: 50%;
+}
+
+
+
+ul{
+justify-content: flex-end;
+display: flex;
+align-items: center;
+list-style-type: none;
+}
+
+
+
+
+ul li a{
+margin: 20px;
+padding: 20px;
+text-decoration: none;
+color: black;
+background-color: white;
+border-radius: 10px;
+}
+
+
+
+ul li a:hover {
+background-color: lightgreen;
+color: white;
+}
+
+
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("img1.jpg");
+background-position: center;
+background-size: cover;
+height: 900px;
+}
+
+
+
+section{
+padding: 100px;
+}
+
+
+
+#link1{
+background-color: lightblue;
+}
+#link2{
+background-color: lightgreen;
+}
+#link3{
+background-color: yellow;
+}
