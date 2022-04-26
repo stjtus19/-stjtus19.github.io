@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+	position: relative;
+}
+
+article{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	
+}
+#athens{
+	background-image: url(athens.jpg);
+	width: 50%;
+	height: 500px;
+}
+article div{
+	background: rgb(56,186,169);
+background: linear-gradient(261deg, rgba(56,186,169,1) 0%, rgba(26,45,125,1) 77%);
+    width: 50%;
+}
+p{
+     font-family: Roboto;
+     position: relative;
+   color: white;
+   background-color: darkblue;
+   top: 150px;
+   left: 270px;
+   padding: 20px;
+   font-size: 20px;
+   display: inline-block;
+ 
+
+
+}
+h1{ 
+	position: relative;
+    display: flex;
+    justify-content: center;
+	color: darkblue;
+	background-color: white;
+	top: 200px ;
+	left: 250px ;
+	padding: 20px;
+	font-size: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: Roboto;
+}
